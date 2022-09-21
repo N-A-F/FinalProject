@@ -1,8 +1,26 @@
+.app{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+  width: 40px;
+  height: 40px;
+  justify-content: left;
+}
+.Nav{
+  background-color: #191f26;
+  width: 100vw;
+}
+  
+
+.title li{
+  font-size: x-large;
+  margin-top: 0px;
+}
 .ul-list{
   display: flex;
 
   justify-content: space-around; 
-  background-color: rgb(172, 200, 224);
+  background-color: #191f26;
   padding: 5px;
 }
 
@@ -14,8 +32,17 @@ ul{
   margin-right: 2px;
 }
 li{
-
+  margin-top: 5px;
   list-style: none;
+  font-size: large;
+  color: aliceblue;
+
+}
+.course{
+  margin: 15px;
+  border-radius: 8px;
+  border: 1px solid black;
+
 }
 
 /* corss   */
@@ -23,15 +50,18 @@ li{
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 5px;
  
 }
 img{
-  width: 60%;
-  margin: 10%;
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 .foteer{
-  background-color: rgb(172, 200, 224);
+  background-color: #191f26;
   padding: 5px;
+  color: aliceblue;
 }
 p{
   text-align: center;

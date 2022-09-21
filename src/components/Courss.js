@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-
-function Courss({img}) {
+function Courss({ img, status }) {
   return (
-    <div >
-        <img src={img}></img>
-    
+    <div className="course">
+      {img && <img src={img}></img>}
+      <hr></hr>
+      {status && <p>{status}</p>}
     </div>
-  )
+  );
 }
 
-export default Courss
+export default Courss;
